@@ -1,0 +1,10 @@
+flask
+requests
+python-dotenv
+langchain
+langchain-groq
+langchain-openai
+pydantic
+openai
+gunicorn==22.0.0
+requests==2.32.3
