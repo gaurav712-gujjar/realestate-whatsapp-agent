@@ -200,7 +200,7 @@ class RealEstateAgent:
             )
 
         if groq_key:
-            self.llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0, groq_api_key=groq_key)
+            self.llm = ChatGroq(model="openai/gpt-oss-120b", temperature=0, groq_api_key=groq_key)
         else:
             self.llm = ChatOpenAI(
                 model="gpt-4o-mini", temperature=0,
